@@ -70,6 +70,13 @@ ul {
     display: block;
 }
 
+.campo input[type="date"] {
+    width: 100%;
+    background-color: #ffbd3f;
+    border-color: #ffbd3f;
+    outline-color: #ffbd3f;
+}
+
 .campo select option {  
     padding-right: 1em;
 }
