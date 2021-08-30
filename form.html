@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="form.css" media="screen">
+    <title>Cadastro</title>
+</head>
+<body>
+    <header>
+        <h1 id="titulo">Cadastro de Curriculos</h1>
+        <!-- <p id="subtitulo">Complete suas informações</p> -->
+        <br>
+    </header>
+    <main>
+        <form>
+            <fieldset class="grupo">
+                <ul><label id="dados"><strong> Dados Pessoais</strong></label></ul>
+                <div class="campo">
+                    <label for="nome">Nome Completo</label>
+                    <input type="text" name = "nome" id = "nome" required>
+                </div>
+                <div class="campo">
+                    <label for="cargo">Cargo Pretendido</label>
+                    <input type="text" name = "cargo" id = "cargo"> 
+                </div>
+                <div>
+                    <label for = "estadoCivil"></label>
+                    <select id="estadoCivil">
+                        <option selected disabled value="">Estado Civil</option>
+                        <option>Solteiro</option>
+                        <option>Casado</option>
+                        <option>Separado/Divorciado</option>
+                        <option>Viúvo</option>
+                        <option>Outros</option>
+                    </select>
+                </div>
+                <div>
+                    <label for = "sexo"></label>
+                    <select id="sexo">
+                        <option selected disabled value="">Sexo</option>
+                        <option>Feminino</option>
+                        <option>Masculino</option>
+                        <option>Outro</option>
+                        <option>Prefiro não dizer</option>
+                    </select>
+                </div>
+<fieldset class="grupo">
+                    <label><strong>Data de Nascimento</strong></label>
+                    <div>
+                        <label for = "mesNasc"></label>
+                        <select id="mesNasc" required>
+                            <option selected disabled value="">Mês</option>
+                            <option>Janeiro</option>
+                            <option>Fevereiro</option>
+                            <option>Março</option>
+                            <option>Abril</option>
+                            <option>Maio</option>
+                            <option>Junho</option>
+                            <option>Julho</option>
+                            <option>Agosto</option>
+                            <option>Setembro</option>
+                            <option>Outubro</option>
+                            <option>Novembro</option>
+                            <option>Dezembro</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for = "diaNasc"></label>
+                        <select id = "diaNasc" required>
+                            <option selected disabled value="">Dia</option>
+                            <option>01</option>
+                            <option>02</option>
+                            <option>03</option>
+                            <option>04</option>
+                            <option>05</option>
+                            <option>06</option>
+                            <option>07</option>
+                            <option>08</option>
+                            <option>09</option>
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option>
+                            <option>13</option>
+                            <option>14</option>
+                            <option>15</option>
+                            <option>16</option>
+                            <option>17</option>
+                            <option>18</option>
+                            <option>19</option>
+                            <option>20</option>
+                            <option>21</option>
+                            <option>22</option>
+                            <option>23</option>
+                            <option>24</option>
+                            <option>25</option>
+                            <option>26</option>
+                            <option>27</option>
+                            <option>28</option>
+                            <option>29</option>
+                            <option>30</option>
+                            <option>31</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for = "anoNasc"></label>
+                        <select id = "anoNasc" required>
+                            <option selected disabled value="">Ano</option>
+                            <option>1950</option>
+                            <option>1951</option>
+                            <option>1952</option>
+                            <option>1953</option>
+                            <option>1954</option>
+                            <option>1955</option>
+                            <option>1956</option>
+                            <option>1957</option>
+                            <option>1958</option>
+                            <option>1959</option>
+                            <option>1960</option>
+                            <option>1961</option>
+                            <option>1962</option>
+                            <option>1963</option>
+                            <option>1964</option>
+                            <option>1965</option>
+                            <option>1966</option>
+                            <option>1967</option>
+                            <option>1968</option>
+                            <option>1969</option>
+                            <option>1970</option>
+                            <option>1971</option>
+                            <option>1972</option>
+                            <option>1973</option>
+                            <option>1974</option>
+                            <option>1975</option>
+                            <option>1976</option>
+                            <option>1977</option>
+                            <option>1978</option>
+                            <option>1979</option>
+                            <option>1980</option>
+                            <option>1981</option>
+                            <option>1982</option>
+                            <option>1983</option>
+                            <option>1984</option>
+                            <option>1985</option>
+                            <option>1986</option>
+                            <option>1987</option>
+                            <option>1988</option>
+                            <option>1989</option>
+                            <option>1990</option>
+                            <option>1991</option>
+                            <option>1992</option>
+                            <option>1993</option>
+                            <option>1994</option>
+                            <option>1995</option>
+                            <option>1996</option>
+                            <option>1997</option>
+                            <option>1998</option>
+                            <option>1999</option>
+                            <option>2000</option>
+                            <option>2001</option>
+                            <option>2002</option>
+                            <option>2003</option>
+                            <option>2004</option>
+                            <option>2005</option>
+                            <option>2006</option>
+                            <option>2007</option>
+                        </select>
+                    </div>
+                </fieldset>
+                <div class="campo">
+                    <label for="endereco">Endereço</label>
+                    <input type="text" name = "endereco" id = "endereco" required> 
+                </div>
+                <div class="campo">
+                    <label for= "bairro">Bairro</label>
+                    <input type="text" name = "bairro" id = "bairro"required> 
+                </div>
+                <div class="campo">
+                    <label for = "cidade">Cidade</label>
+                    <input type="text" name = "cidade" id = "cidade" required> 
+                </div>
+                <div class="campo">
+                    <label for = "cep">CEP</label>
+                    <input type="text" name = "cep" id = "cep"> 
+                </div>
+                <div class="campo">
+                    <label for = "fone1">Telefone Fixo 1</label>
+                    <input type="text" name = "fone1" id = "fone1"> 
+                </div>
+                <div class="campo">
+                    <label for = "fone2">Telefone Fixo 2</label>
+                    <input type="text" name = "fone2" id = "fone2"> 
+                </div>
+                <div class="campo">
+                    <label for = "celular">Celular</label>
+                    <input type="text" name = "celular" id = "celular"> 
+                </div>
+                <div class="campo">
+                    <label for = "contato">Contato</label>
+                    <input type="text" name = "contato" id = "contato"> 
+                </div>
+                <div class="campo">
+                    <label for = "email">e-mail</label>
+                    <input type="email" name = "e-mail" id = "email">
+                </div>
+           </fieldset>   
+            <fieldset class="grupo">
+                <ul><label><strong>Documentos</strong></label></ul>
+                <div class="campo">
+                    <label for = "identidade">Identidade</label>
+                    <input type="text" name = "identidade" id = "identidade" required> 
+                </div>
+                <div class="campo">
+                    <label for = "cpf">CPF</label>
+                    <input type="text" name = "cpf" id = "cpf"required> 
+                </div>
+                <div>
+                    <label for = "possuiVeiculo"></label>
+                    <select id="possuiVeiculo">
+                        <option selected disabled value="">Veículo?</option>
+                        <option>Sim</option>
+                        <option>Não</option>
+                    </select>
+                </div>
+                <div>
+                    <label for = "habilitacao"></label>
+                    <select id="habilitacao">
+                        <option selected disabled value="">Habilitação?</option>
+                        <option>Tipo A</option>
+                        <option>Tipo B</option>
+                        <option>Tipo C</option>
+                        <option>Tipo D</option>
+                        <option>Tipo E</option>
+                    </select>
+                </div>
+            </fieldset>
+            <button class ="botao" type= "submit">Cadastrar</button>
+        </form>
+    </main>
+</body>
+</html>
